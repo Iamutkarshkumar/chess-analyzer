@@ -45,7 +45,6 @@ Chess PGN Analyzer is a lightweight React application that lets you load and nav
 
 - **Board Controls**  
   - Reset board to the starting position  
-  - Flip board orientation  
   - Dark / Light mode toggle
 
 - **Download & Copy**  

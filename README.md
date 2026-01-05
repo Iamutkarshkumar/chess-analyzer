@@ -65,9 +65,4 @@ Chess PGN Analyzer is a lightweight React application that lets you load and nav
 
 ---
 
-## 📂 Installation
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Iamutkarshkumar/chess-analyzer.git
-   cd chess-analyzer

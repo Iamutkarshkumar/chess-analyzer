@@ -12,16 +12,17 @@
 import React from "react";
 import { Chessboard } from "react-chessboard";
 
-export default function ChessBoard({ position, boardWidth = 400 }) {
+export default function ChessBoard({ position, boardWidth = 400, flipped = false }) {
+  const boardOrientation = flipped ? "black" : "white";
   return (
     <div className="chessboard-wrapper">
-      <Chessboard position={position} boardWidth={boardWidth} />
+      <Chessboard position={position} boardWidth={boardWidth} boardOrientation={boardOrientation} />
       <style jsx>{`
         .chessboard-wrapper {
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 24px 0;
+          padding: 0;
           background: rgba(255,255,255,0.15);
           border-radius: 18px;
           box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);

@@ -82,7 +82,8 @@ Chess PGN Analyzer is a lightweight web application that lets you load, view, an
 
 ## 📷 Preview
 
-> Add a screenshot of the app here if you want to make the README more attractive.
+<img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/199b258d-adf9-445c-9512-abffff6c1ef7" />
+
 
 ---
 
